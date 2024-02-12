@@ -1,0 +1,38 @@
+@media (min-width: 600px) {
+    h1 {
+        font-size: 2em;
+        letter-spacing: .25em;
+    }
+    
+    nav ul {
+        flex-direction: row;
+        justify-content: space-around;
+        padding-right: 2em;
+    }
+    
+    nav li {
+        width: 12em;
+        border-bottom: none;
+    }
+    
+    section {
+        padding: 2em;
+    }
+    
+    #flow {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    #mobile {
+        display: none;
+    }
+    
+    #desktop {
+        display: inline;
+    }
+    
+    #homehero, #yurthero, #trailhero {
+        background-size: 100% 100%;
+    }
+}
