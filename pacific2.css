@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    background-color: #90C7E3;
+}
+
+#wrapper {
+    /* No styles for the background image, width, margin, and box-shadow */
+}
+
+header {
+    padding: 1em;
+}
+
+h1 {
+    font-size: 1.5em;
+    /* Remove letter-spacing and padding */
+}
+
+nav {
+    text-align: center;
+    background-color: white;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    padding: .5em 1em;
+    width: 100%;
+    border-bottom: 1px solid;
+}
+
+main {
+    padding: 1em;
+}
+
+section {
+    padding: .5em;
+}
+
+#homehero, #yurthero, #trailhero {
+    background-size: 200% 100%;
+}
+
+footer {
+    /* Remove margin-left */
+}
+
+/* Styles for mobile and desktop phone number */
+#mobile {
+    display: inline;
+}
+
+#desktop {
+    display: none;
+}
+
+/* Add viewport meta tag in the head of each HTML file */
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
